@@ -22,7 +22,17 @@ Human body measurement uses a number of open source projects to work properly:
 
 ### Todo's
 
-
+* Familiar with scikit-image library
+* Remove noise in input image (front image, side image)
+* Body parts recognition 
+  * Identify head part: head, neck
+	* Identify torso, 
+	* Identify two wirsts, two legs
+* Calculate the measurements of body parts
+  * Shoulder
+	* Neck
+	* Chest
+	* Waist 
 
 License
 ----
