@@ -3,7 +3,7 @@
 Human body measurement is a image processing software use in identify body parts, calculate body measurements.
 
   - Take your picture in one color background
-  - Enter your height and choose image input path
+  - Enter your height and choose input image path
   - Magic!!!
 
 ### Version
