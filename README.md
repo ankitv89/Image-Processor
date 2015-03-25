@@ -17,7 +17,6 @@ Human body measurement uses a number of open source projects to work properly:
 * NumPy - The fundamental package for scientific computing with Python
 * Scikit-image - Image processing in Python
 
-
 ### Installation
 
 ### Todo's
@@ -26,13 +25,13 @@ Human body measurement uses a number of open source projects to work properly:
 * Remove noise in input image (front image, side image)
 * Body parts recognition 
   * Identify head part: head, neck
-	* Identify torso, 
-	* Identify two wirsts, two legs
+  * Identify torso, 
+  * Identify two wirsts, two legs
 * Calculate the measurements of body parts
   * Shoulder
-	* Neck
-	* Chest
-	* Waist 
+  * Neck
+  * Chest
+  * Waist 
 
 License
 ----
