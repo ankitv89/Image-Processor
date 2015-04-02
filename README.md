@@ -13,9 +13,13 @@ Human body measurement is a image processing software use in identify body parts
 
 Human body measurement uses a number of open source projects to work properly:
 
-* The Python Standard Library
 * NumPy - The fundamental package for scientific computing with Python
 * Scikit-image - Image processing in Python
+
+Test and view tools
+
+* IPython
+* IPython notebook
 
 ### Installation
 
