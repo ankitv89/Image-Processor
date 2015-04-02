@@ -23,6 +23,7 @@ Human body measurement uses a number of open source projects to work properly:
 
 * Familiar with scikit-image library
 * Remove noise in input image (front image, side image)
+* Remove background of image (edge detection, sub image)
 * Body parts recognition 
   * Head part: head, neck
   * Torso
