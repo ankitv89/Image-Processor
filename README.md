@@ -32,6 +32,9 @@ Test and view tools
 * Remove noise in input image (front image, side image)
   * Read image as grayscale image
   * Apply Kuwahara - Nagao filter
+    * Caculate the means μi and variances of all the neighbourhoods
+    * The pixel is replaced with the μi of the region with the lowest variances
+    * Apply two above step through [generic_filter](http://docs.scipy.org/doc/scipy/reference/generated/scipy.ndimage.filters.generic_filter.html)
 * Remove background of image
   * Finding edges of human in image
   * Sub image to remove one color background
