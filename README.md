@@ -21,9 +21,16 @@ Human body measurement uses a number of open source projects to work properly:
 
 ### Todo's
 
-* Familiar with scikit-image library
+* Familiar with scikit-image library, numpy, matplotlib
+  * Scikit-image modules: data, io, feature, filter
+  * Numpy: numpy-array, operators
+  * Matplotlib: show image, plot, axes
 * Remove noise in input image (front image, side image)
-* Remove background of image (edge detection, sub image)
+  * Read image as grayscale image
+  * Apply Kuwahara - Nagao filter
+* Remove background of image
+  * Finding edges of human in image
+  * Sub image to remove one color background
 * Body parts recognition 
   * Head part: head, neck
   * Torso
