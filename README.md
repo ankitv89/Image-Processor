@@ -23,6 +23,14 @@ Test and view tools
 
 ### Installation
 
+* Python: sudo apt-get install python-pip python-dev build-essential
+* Dependencies: pandas, sympy, nose. (pip install 'lib-name')
+* Numpy: sudo pip install numpy
+* Matplotlib: sudo pip install matplotlib
+* Scipy: sudo pip install scipy
+* Tool (ipython, ipython notebook): pip install ipython, pip install "ipython[notebook]"
+* Scikit-image: pip install -U scikit-image
+* How to use ipython-notebook: https://www.youtube.com/watch?v=H6dLGQw9yFQ
 ### Todo's
 
 * Familiar with scikit-image library, numpy, matplotlib
