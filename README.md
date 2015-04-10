@@ -31,6 +31,7 @@ Test and view tools
 * Tool (ipython, ipython notebook): pip install ipython, pip install "ipython[notebook]"
 * Scikit-image: pip install -U scikit-image
 * How to use ipython-notebook: https://www.youtube.com/watch?v=H6dLGQw9yFQ
+
 ### Todo's
 
 * Familiar with scikit-image library, numpy, matplotlib
@@ -47,14 +48,11 @@ Test and view tools
   * Finding edges of human in image
   * Sub image to remove one color background
 * Body parts recognition 
-  * Head part: head, neck
-  * Torso
-  * Two wirsts, two legs
+  * Using skeletonization method to get structure of human body 
+  * Compare with human body region to get the body parts
+  * Label each body parts
 * Calculate the measurements of body parts
-  * Shoulder
-  * Neck
-  * Chest
-  * Waist 
+  * Calculate the body parts by draw eclipse
 
 License
 ----
