@@ -32,6 +32,17 @@ Test and view tools
 * Scikit-image: pip install -U scikit-image
 * How to use ipython-notebook: https://www.youtube.com/watch?v=H6dLGQw9yFQ
 
+### Procedure For Image Capture
+* Lighting: Bright environment with as much natural light as possible
+* Background: Removal of obstructions with a single color background
+* Border: Encapsulate entire body in the center of image
+* Clothing: Underwear
+* Pose - Front - Feet: Shoulder width apart
+* Pose - Front - Arms: Facing the floor at a 45 degree angle
+* Pose - Front - Hands: Flat with length of wrists facing the camera
+* Pose - Side - Arms: Flat against body not obstructing front or back outline
+* Pose - Side - Hands: Flat with width of wrists facing the camera
+
 ### Todo's
 
 * Familiar with scikit-image library, numpy, matplotlib
