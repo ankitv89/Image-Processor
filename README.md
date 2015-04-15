@@ -43,6 +43,18 @@ Test and view tools
 * Pose - Side - Arms: Flat against body not obstructing front or back outline
 * Pose - Side - Hands: Flat with width of wrists facing the camera
 
+### Steps For Processing Image
+#### Filter Input (all steps)
+To minimize errors, **only necessary** information should be used. The challenge of having too little or too much information helps to minimize errors. An added benefit of filtering large datasets is reduced computation requirements for processing.
+* Remove noise
+* Narrow field to region of interest
+
+#### Extract Features & Information (one or a combination of all)
+* *Color information* - looking for changes in color or detect objects.
+* *Blob extraction* - detecting adjacent, similarly colored pixels.
+* *Edges and corners* - examining changes in brightness to identify borders or objects.
+* *Pattern recognition and template matching* - adding basic intelligence by matching features with the features of known objects.
+
 ### Todo's
 
 * Familiar with scikit-image library, numpy, matplotlib
