@@ -78,6 +78,9 @@ To minimize errors, **only necessary** information should be used. The challenge
 * Calculate the measurements of body parts
   * Calculate the body parts by draw eclipse
 
+### Documents
+https://drive.google.com/drive/u/0/folders/0B7rKJ3215ikuOU4xTzZPWm9FVU0
+
 License
 ----
 
