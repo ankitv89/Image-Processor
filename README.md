@@ -62,15 +62,12 @@ To minimize errors, **only necessary** information should be used. The challenge
   * Numpy: numpy-array, operators
   * Matplotlib: show image, plot, axes
 * Remove noise in input image (front image, side image)
-  * [Remove salt and pepper noise](http://scikit-image.org/docs/stable/auto_examples/plot_nonlocal_means.html#example-plot-nonlocal-means-py)
   * Read image as grayscale image
-  * Apply Kuwahara - Nagao filter
-    * Caculate the means μi and variances of all the neighbourhoods
-    * The pixel is replaced with the μi of the region with the lowest variances
-    * Apply two above step through [generic_filter](http://docs.scipy.org/doc/scipy/reference/generated/scipy.ndimage.filters.generic_filter.html)
+  * [Remove salt and pepper noise](http://scikit-image.org/docs/stable/auto_examples/plot_nonlocal_means.html#example-plot-nonlocal-means-py)
 * Remove background of image
-  * Finding edges of human in image
-  * Sub image to remove one color background
+  * Finding edges of human in image by roberts (canny / sobel) fitler
+  * [Skin detection](http://www.codeproject.com/Articles/38176/Image-Processing-Skin-Detection-Some-Filters-and-E)
+  * Merge regions to find the human in image (skimage.segmentation.*)
 * Body parts recognition 
   * Using skeletonization method to get structure of human body 
   * Compare with human body region to get the body parts
