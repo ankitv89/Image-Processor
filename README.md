@@ -64,6 +64,7 @@ To minimize errors, **only necessary** information should be used. The challenge
 * Remove noise in input image (front image, side image)
   * Read image as grayscale image
   * [Remove salt and pepper noise](http://scikit-image.org/docs/stable/auto_examples/plot_nonlocal_means.html#example-plot-nonlocal-means-py)
+  * Edge-preserving and noise reducing denoising filter
 * Remove background of image
   * Finding edges of human in image by roberts (canny / sobel) fitler
   * [Skin detection](http://www.codeproject.com/Articles/38176/Image-Processing-Skin-Detection-Some-Filters-and-E)
